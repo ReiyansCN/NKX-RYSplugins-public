@@ -2,4 +2,4 @@ Piugin name:RYSshout
 Version: v0.1
 Author: Reiyans
 QQ: 2777807622
-比心哦!
+比心哦
