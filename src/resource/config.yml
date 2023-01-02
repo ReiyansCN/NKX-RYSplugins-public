@@ -1,0 +1,24 @@
+#don't change key 'version' if you can't edit this plugin
+Version: 0.1
+#This keys are defult, you can change them
+JoinServerMessage1: "Welcome to this Server"
+JoinServerMessage2: "Use '/shout' to show your text in the server all worlds."
+UseShoutCommandLogger: "A player shouting"
+UseShoutsetCommandLogger: "A op seting config"
+#This are prices of shouting about players, you need ready for EconimyAPI as the dependence plugin
+ChoseMoodPrice: 100
+ChoseColorPrice: 100
+SendTextPrice: 100
+#You can decide whether to call in the current world or in the whole server(use "server and world")
+ShoutMode: "server"
+#Shout Ui text, you can change them
+ShoutTitle: "[Shout]"
+ShoutUITitle: "Shout Page"
+ShoutMoodTitle: "You shouting chose Mood need Money"
+ShoutColorTitle: "You shouting chose Colorful need Money"
+ShoutInputTitle: "You shouting text be sended need Money"
+ShoutModeTitle: "You shouting mode(a way of showing your server)"
+#Shout result, you can change them
+ShoutSuccess: "Shouted Successfully! Costed money:"
+ShoutFail: "Shouted Failingly! Costed money:"
+

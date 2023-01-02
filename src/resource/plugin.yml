@@ -1,0 +1,17 @@
+name: RYSshout
+main: cn.reiyans.RYSshout.PluginMain
+version: "0.1"
+author: Reiyans
+api: ["1.0.9"]
+description: "The Plugin is used to shout by players in your PNXserver,and it carry some fun functions,try it now!"
+depend: ["EconomyAPI"]
+commands:
+  shout:
+    permission: RYSshout.shout
+  shoutset:
+    permission: RYSshout.shoutset
+permissions:
+  RYSshout.shout:
+    default: true
+  RYSshout.shoutset:
+    default: op

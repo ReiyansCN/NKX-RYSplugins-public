@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PNX-RYSshout:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PNX_RYSshout_jar</output-path>
+    <root id="archive" name="PNX-RYSshout.jar">
+      <element id="module-output" name="PNX-RYSshout" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../PNX-CLI/PNX-CLI/PowerNukkitX-master-1a997f8d6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
