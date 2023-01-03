@@ -1,5 +1,5 @@
 #don't change key 'version' if you can't edit this plugin
-Version: "0.1"
+Version: "1.1"
 #These keys are default, you can change them
 JoinServerMessage1: "Welcome to this Server"
 JoinServerMessage2: "Use '/shout' to show your text in the server all worlds."
