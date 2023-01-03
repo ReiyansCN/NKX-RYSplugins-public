@@ -9,7 +9,7 @@ import cn.nukkit.form.element.ElementInput;
 import java.util.Arrays;
 
 public class PlayerUI {
-    public static final int MENU = 1931; //The menu id can help you call the ui correctly
+    public static final int MENU = 1931; //The menu id can help you use the ui's contents correctly
     public static void playermenu(Player player) {//A Custom ui for creating
         String msg5 = PluginMain.getInstance().getConfig().getString("ShoutUITitle");
         String msg6 = PluginMain.getInstance().getConfig().getString("ShoutMoodTitle");
@@ -25,8 +25,9 @@ public class PlayerUI {
         playerform.addElement(new ElementDropdown(msg7+money2, Arrays.asList("white", "red", "orange", "yellow", "green", "cyan", "blue", "purple")));
         playerform.addElement(new ElementLabel(msg8+money3));
         playerform.addElement(new ElementInput(" "));
-        playerform.addElement(new ElementDropdown(msg11, Arrays.asList("Chatbar", "Thost", "Actionbar", "Tip", "Popup")));
+        playerform.addElement(new ElementDropdown(msg11, Arrays.asList("Chatbar", "Toast", "Actionbar", "Tip", "Popup")));
         player.showFormWindow(playerform, MENU); //Send form to player, and add a tag "menu" to the form
     }
+
 }
 
