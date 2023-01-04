@@ -1,0 +1,21 @@
+#please don't change the version casually.
+Version: "1.4"
+#You can adjust bank's value and bank's interest(The everyday interest = Bank account x InterestRate ), when player play in the server for enough hours.
+MaxBankMoney: 99999999
+InterestRate: 0.01
+InterestRateNeedHour: 3
+#You can change them, these are ui texts
+BankUITitle: "Bank"
+BankUISaveMoney: "Save money"
+BankUITakeMoney: "Take money"
+BankUIPlayMoney: "Your money is§e:"
+BankUIAccountMoney: "Your Bank account is§e:"
+BankUISaveMoneyTitle: "Please input money of you will save"
+BankUITakeMoneyTitle: "Please input money of you will take out"
+#These are some tips and messages about the bank plugin
+BankMessageTitle: "[Bank]n"
+SaveMoneySuccess: "You saved money:§e"
+SaveMoneyFail: "You failed save money, Because you don't have enough money"
+TakeMoneySuccess: "You took money:§e"
+TakeMoneyFail: "You failed take money, Because your bank don't have enough money"
+GotTodayInterestMessage: "You got Today interest"

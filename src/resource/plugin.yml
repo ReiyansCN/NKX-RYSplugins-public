@@ -1,0 +1,13 @@
+name: RYSbank
+main: cn.reiyans.RYSbank.PluginMain
+version: "1.4"
+author: Reiyans
+api: ["1.0.9"]
+description: "The Plugin provide a bank for your server!"
+depend: ["EconomyAPI"]
+commands:
+  bank:
+    permission: RYSbank.bank
+permissions:
+  RYSbank.bank:
+    default: true
