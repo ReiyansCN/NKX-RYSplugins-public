@@ -1,0 +1,52 @@
+#如无需要请勿乱动版本号
+Version: "1.1"
+#这是礼物主界面的UI文本，你可以随意修改(在Tips中使用{rysgift-charm}变量来展示玩家的的魅力值,
+#使用{rysgift-level}来展示玩家的魅力级别)
+GiftUITitle: "礼物系统"
+GiftUILine1: "您当前的魅力值为：§c"
+GiftUILine2: "§f您当前的魅力级别为: §c"
+GiftUILine3: "§fPs.(在'礼物商店'中可查看对应礼物剩余和为被赠礼者增加的魅力值和价格)"
+GiftUIButton1: "赠送礼物"
+GiftUIButton1Image: "textures/ui/gift_square.png"
+GiftUIButton2: "礼物商店"
+GiftUIButton2Image: "textures/ui/sidebar_icons/marketplace.png"
+GiftUIButton3: "赠礼信息"
+GiftUIButton3Image: "textures/ui/sidebar_icons/my_characters.png"
+GiftUIButton4: "魅力信息"
+GiftUIButton4Image: "textures/ui/sidebar_icons/wish_list.png"
+#这是赠送礼物界面的UI文本与提示消息。你可以随意修改
+SendUITitle: "赠送礼物"
+SendUILine1: "选择您要赠送的礼物"
+SendUILine2: "输入您要赠送礼物的数量"
+SendUILine3: "输入您要赠送的玩家名称"
+SendUILine4: "请输入赠言(可为空)"
+SendSuccess1: "§a您成功向该玩家赠送礼物§e "
+SendSuccess2: "§a并成功同步到他/她的消息赠礼记录中"
+PlayerisNull: "§c送礼失败，该玩家不存在"
+GiftisLess: "§c该礼物数量不足，送礼失败"
+#这是礼物商店界面的UI文本。你可以随意修改奥
+ShopUITitle: "购买礼物"
+ShopUIGift1: " 剩余：§e"
+ShopUIGift2: "§f，可增加魅力值：§e"
+ShopUIGift3: "§f，单个价格为(金币)：§e"
+ShopUILine1: "选择您要购买的礼物"
+ShopUILine2: "输入您要购买的数量"
+ShopSuccess: "§a购买礼物成功!您可以在商店查看礼物剩余数量"
+ShopFail: "§c购买礼物失败!您的金钱不足"
+#这是礼物商店界面的UI文本。你可以随意修改也(TAT)
+MessageUITitle: "赠礼信息"
+MessageMax: "最多保存10条记录，10条之后的信息将会依次从最上方开始刷新"
+SendMsgButton: "送礼记录"
+ReceiveMsgButton: "被赠记录"
+#这是魅力信息界面的UI文本。你可以任意修改(如果要增加，修改魅力级别与需求的魅力请前往level.yml)
+LevelUITitle: "魅力信息"
+LevelUIInformation: "当您到达指定的魅力之后，本页面确认即可升级!以下为魅力等级需要的魅力值"
+LevelUINeed: "需要的魅力值为："
+#这是另外的一些提示，你可以任意修改
+UnfairValue: "§c非法的数值!请重新输入"
+IsPlayerself: "您不能送给自己"
+
+
+
+
+

@@ -1,0 +1,15 @@
+name: RYSgift
+main: cn.reiyans.RYSgift.PluginMain
+version: "1.0"
+author: Reiyans
+api: ["1.0.9"]
+description: "The Plugin provide a gift system for your server!"
+depend:
+  - "EconomyAPI"
+  - "GUI"
+commands:
+  gift:
+    permission: RYSgift.gift
+permissions:
+  RYSgift.gift:
+    default: true
