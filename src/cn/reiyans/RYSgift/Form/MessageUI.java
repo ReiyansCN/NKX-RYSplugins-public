@@ -12,7 +12,7 @@ public class MessageUI {
         FormSimple form = new FormSimple(config003.getString("MessageUITitle"),config003.getString("MessageMax"));
         form.addButton(new ElementButton(config003.getString("SendMsgButton")));
         form.addButton(new ElementButton(config003.getString("ReceiveMsgButton")));
-        player.showFormWindow(form.onClicked(id -> { //这里也用了lambda
+        player.showFormWindow(form.onClicked(id -> { 
             if(id == 0){
                 MessageUIsend.ui(player);
             }
