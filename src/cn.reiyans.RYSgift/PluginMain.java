@@ -34,7 +34,7 @@ public class PluginMain extends PluginBase {
             LevelConfig1.set("Level1Name","略有耳闻");
             LevelConfig1.set("Level1Need",100);
             LevelConfig1.set("Level2Name","响彻一方");
-            LevelConfig1.set("Level2Need",100);
+            LevelConfig1.set("Level2Need",200);
             LevelConfig1.save();
         }
         if(giftsConfig.exists("gift1Name")){
